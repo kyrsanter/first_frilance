@@ -536,8 +536,7 @@ a:hover {
   transform: translateY(-50%);
 }
 .advantages__item img {
-  width: 22%;
-  height: 45%;
+  max-width:100%;
   position: absolute;
   top: -25%;
   background: #fff;
@@ -606,9 +605,8 @@ a:hover {
     left: -5%;
   }
   .advantages__item img {
-    width: 20%;
+    max-width:100%;
     top: -27%;
-    height: 45%;
     left: 9%;
   }
   .advantages__item p {
@@ -669,9 +667,8 @@ a:hover {
     left: -5%;
   }
   .advantages__item img {
-    width: 20%;
+    max-width: 100%;
     top: -27%;
-    height: 45%;
     left: 9%;
   }
   .advantages__item p {
@@ -732,9 +729,8 @@ a:hover {
     left: -4%;
   }
   .advantages__item img {
-    width: 20%;
+    max-width: 100%;
     top: -27%;
-    height: 45%;
     left: 9%;
   }
   .advantages__item p {
@@ -795,9 +791,8 @@ a:hover {
     left: -4%;
   }
   .advantages__item img {
-    width: 20%;
+    max-width: 100%;
     top: -27%;
-    height: 45%;
     left: 9%;
   }
   .advantages__item p {
