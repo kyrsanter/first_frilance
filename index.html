@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Doors</title>
+	<meta name="description" content="Акционная скидка на двери коллекции STATUS, SERIAL и NEOCLASSICA. Заплати за 2 - получи 3">
+	<meta name="keywords" content="STATUS, SERIAL, NEOCLASSICA, купить двери в Ишимбай, купить двери в Салават, купить двери в Стерлитамак, купить двери в Башкортостане, купить двери в России">
+	<link rel="shortcut icon" type="image/png" href="img/doors1.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/phone.css" media="screen" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<header class="header">
+		<nav class="header__nav">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-12 col-sm-6 col-md-7 col-lg-4 col-xl-4">
+						<ul class="header__nav-logos">
+							<li><a href=""><img src="img/logo1.png" alt="Новый век"></a></li>
+							<li><a href=""><img src="img/logo2.png" alt="ОтдеЛка"></a></li>
+							<li><a href=""><img src="img/logo3.png" alt="dariano"></a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-5">
+						<ul class="header__nav-cities">
+							<li><i class="fas fa-clock"></i>Акция действует с <span>1</span> по <span>28 февраля</span></li>
+							<li><i class="fas fa-map-marker-alt"></i>г. Ишимбай, г. Салават, г. Стерлитамак</li>
+						</ul>
+					</div>
+					<div class="col-12 col-sm-12 col-lg-4 col-xl-3">
+						<ul class="header__nav-phone">
+							<li><a title="Позвонить" href="tel:+79174189985"> +7 (917) <span>41-899-85</span></a></li>
+							<li onclick="showPopup()">заказать звонок</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="header__bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-6 col-lg-8 col-xl-8">
+						<div class="header__bottom-title">
+							<h1>дарим двери!</h1> <br>
+							<p>вы не платите за каждое третье полотно в ввашей покупке!</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-7">
+						<div class="header__bottom-doors">
+							<img src="img/doors.png" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-5">
+						<div class="header__bottom-callBack">
+							<form action="" class="callback-form" id="callback-form">
+								<label for="callback-form">Оставьте заявку на<br>обратный звонок</label>
+								<input type="text" placeholder="Имя"> 
+								<input type="text" placeholder="Телефон"> 
+								<button type="submit" id="callback-form-btn">Отправить</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="advantages">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-12 col-sm-8 col-md-8 col-lg-5 col-xl-5">
+					<div class="section-title">
+						<h2>
+							Наши преимущества
+						</h2>
+						<p>
+							Все товары сертифицированы
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+					<div class="section-number">
+						<p>
+							02
+						</p>
+						<span>
+							Преимущества
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-9 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+					<div class="advantages__item">
+						<img src="img/icons/delivery-icon.png" alt="">
+						<p>Доставка товара по <br> городу и району</p>
+					</div>
+				</div>
+				<div class="col-9 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+					<div class="advantages__item">
+						<img src="img/icons/thumb-icon.png" alt="">
+						<p>Все товары <br> сертифицырованы</p>
+					</div>
+				</div>
+				<div class="col-9 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+					<div class="advantages__item">
+						<img src="img/icons/door-icon.png" alt="">
+						<p>Вы можете сделать <br> заказ по каталогам по <br>вашему выбору</p>
+					</div>
+				</div>
+				<div class="col-9 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+					<div class="advantages__item">
+						<img src="img/icons/card-icon.png" alt="">
+						<p>гибкая система оплаты</p>
+						<span>наличными, по пластиковым картам, в рассрочку и в кредит, а также перечислением на р/счет</span>
+					</div>
+				</div>
+				<div class="col-9 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+					<div class="advantages__item">
+						<img src="img/icons/man-icon.png" alt="">
+						<p>опытные <br> продавцы-консультанты</p>
+					</div>
+				</div>
+				<div class="col-9 col-sm-6 col-md-6 col-lg-4 col-xl-4">
+					<div class="advantages__item" style="background:#2485ab;">
+						<a href="#"><p style="color:#ffffff">посмотреть историю <br> компании</p></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="action">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-12 col-sm-8 col-md-8 col-lg-5 col-xl-5">
+					<div class="section-title">
+						<h2>
+							Дарим двери
+						</h2>
+					</div>
+				</div>
+				<div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+					<div class="section-number">
+						<p>
+							03
+						</p>
+						<span>
+							Акция
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-between">
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-5">
+					<div class="action__door">
+						<img src="img/doors1.png" alt="Дарим двери">
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+					<ul class="action__conditions">
+						<li>Акционная скидка распространяется на межкомнатные дверные полотна Dariano (при наличии минимум трех дверных полотен в заказе). </li>
+						<li>Сроки проведения акции с 1 по 28 февраля 2019г. </li>
+						<li>Предложение действует на коллекции <span>STATUS, SERIAL и NEOCLASSICA</span></li>
+						<li>В подарок предоставляется дверное полотно без учета и фурнитуры. </li>
+						<li>Акция не суммируется с другими акциями. </li>
+					</ul>
+					<a href="" class="action__consutl-order-btn" onclick="showPopup()">Заказать консультацию консультанта</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="catalog">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-12 col-sm-8 col-md-8 col-lg-6 col-xl-5">
+					<div class="section-title">
+						<h2>
+							Каталог дверей Dariano
+						</h2>
+					</div>
+				</div>
+				<div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+					<div class="section-number">
+						<p>
+							04
+						</p>
+						<span>
+							Каталог
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-12 col-sm-11 col-md-6 col-xl-5" id="zIndex">
+					<div class="catalog__magazine">
+						<img src="img/catalog.png" alt="">
+					</div>
+				</div>
+				<div class="col-12 col-sm-11 col-md-6 col-xl-5">
+					<div class="catalog__conditions">
+						<p>В акции учавствуют двери колекции</p>
+						<span>STATUS, SERIAL и NEOCLASSICA</span>
+						<a href="#" class="to-catalog-btn">Перейти в каталог</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="questions">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-12 col-sm-8 col-md-8 col-lg-6 col-xl-7">
+					<div class="section-title">
+						<h2>
+							Остались вопросы?
+						</h2>
+						<p>
+							Если у Вас остались вопросы, Вы можете отправить нам сообщение или связаться с нами любым удобным для Вас способом.
+						</p>
+					</div>
+				</div>
+				<div class="col-12 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+					<div class="section-number">
+						<p>
+							05
+						</p>
+						<span>
+							Вопросы
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-12 col-sm-10 col-md-12 col-lg-12 col-xl-11">
+					<form action="" class="questions__form">
+						<textarea cols="110" rows="10" placeholder="Ваш вопрос"></textarea>
+						<div class="questions__form-inputs">
+							<input type="text" placeholder="Имя"> <br>
+							<input type="text" placeholder="Телефон"> <br>
+							<button type="submit" id="questions__form-btn">Отправить</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+					<div class="footer__nav">
+						<ul class="footer__nav-logos">
+							<li><a href=""><img src="img/logo1.png" alt="Новый век"></a></li>
+							<li><a href=""><img src="img/logo2.png" alt="ОтдеЛка"></a></li>
+							<li><a href=""><img src="img/logo3.png" alt="dariano"></a></li>
+						</ul>
+					</div>
+					<div class="footer__links">
+						<a href="#">Официальный сайт</a>
+						<a href="#">Каталог</a>
+					</div>	
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+					<div class="footer__phone">
+						<ul class="footer__nav-phone">
+							<li><a title="Позвонить" href="tel:+79174189985"> +7 (917) 41-899-85</a></li>
+							<li>заказать звонок</li>
+						</ul>
+					</div>
+					<div class="footer__social">
+						<a href="vk.com"><i class="fab fa-vk"></i></a>
+						<a href="instagram.com"><i class="fab fa-instagram"></i></a>
+						<a href="mail.ru"><i class="fas fa-envelope"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+					<ul class="footer__adress">
+						<li>Магазин "Отделка": <br>
+							Адрес: Г. Стерлитамак, ул. Артема д.140
+						</li>
+						<li>Магазин "Новый Век": <br>
+							Адрес: Г. Салават, пр. Ленина д.47
+						</li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+					<ul class="footer__adress">
+						<li>Магазин "Отделка": <br>
+							Адрес: Г. Салават, б. Космонавтов д.43
+						</li>
+						<li>Магазин "Новый Век": <br>
+							Адрес: Г. Ишимбай ул. Губкина д.48
+						</li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3">
+					<ul class="footer__adress">
+						<li>Магазин "Отделка": <br>
+							Адрес: Г. Ишимбай ул. Ленина д.33Б
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="popup-wrapper" id="popup-wrapper">
+		<div class="popup-block">
+			<form action="" class="popup-form">
+				<img src="img/phone1.png" alt="">
+				<input type="text" placeholder="Имя"> <br>
+				<input type="text" placeholder="Телефон"> <br>
+				<button type="submit" id="questions__form-btn">Заказать звонок</button>
+			</form>
+		</div>
+	</div>
+	<script src="scripts/script.js"></script>
+</body>
+</html>
+

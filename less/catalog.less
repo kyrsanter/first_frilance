@@ -1,0 +1,304 @@
+.catalog {
+	padding-top: 115px;
+	background: url(img/background4.png) no-repeat;
+	background-size: 56%;
+	background-position: 50% 60%;
+		
+	.section-number {
+		span {
+			top: 48%;
+			right: 50px;
+		}
+	}
+
+	.catalog__magazine {
+		width: 100%;
+		img {
+    		width: 160%;
+    		margin-left: -100px;
+    		z-index: 9;
+    		display: block;
+		}
+	}
+
+	.catalog__conditions {
+		border:10px solid #4f5389;
+		padding-top: 90px;
+		background: transparent;
+		margin-left: -40px;
+		margin-top: 30px;
+		padding-left: 100px;
+		
+		p {
+			font-size: 20px;
+			font-family: @muller_light;
+			margin-bottom: 0;
+		}
+		span {
+			font-size: 24px;
+			font-family: @muller_extraBold;
+		}
+
+		.to-catalog-btn {
+			display: inline-block;
+			border:1px solid #c00d10;
+			background: #c00d10;
+			color:#fff;
+			padding: 12px 45px;
+			font-size: 14px;
+			font-family: @muller_light;
+			border-radius: 30px;
+			margin-top: 15px;
+			margin-bottom: 17px;
+			transition: all 0.3s ease;
+
+			&:hover {
+				background: transparent;
+				border:1px solid #c00d10;
+				color:#c00d10;
+			}
+		}
+
+
+	}
+
+	#zIndex {
+		z-index: 9;
+	}
+
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+	.catalog {
+		padding-top: 30px;
+		background-position: 50% 80%;
+		padding-bottom: 30px;
+
+		.section-number {
+			margin-top: 5px;
+			p {
+				font-family: @muller_extraBold;
+				font-size: 65px;
+				margin-left: 79%;
+			}
+			span {
+				font-size: 9px;
+				top: 40%;
+				right: 5%;
+				font-family: @muller_medium;
+			}
+		}
+	
+		.catalog__magazine {
+			img {
+				width: 100%;
+				margin-left: 0;
+			}
+		}
+		.catalog__conditions {
+			margin-top: 0;
+			margin-left: 0;
+			padding: 20px 35px;
+			text-align: center;
+
+			p {
+				font-size: 14px;
+				margin-bottom: 12px;
+			}
+			span {
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+	.catalog {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		background-position: 50% 80%;
+
+	.section-title {
+		margin-bottom: 20px;
+
+		h2 { 
+			font-family: @muller_extraBold;
+			margin-bottom: 0px;
+			font-size: 30px;
+		}
+
+		p {
+			border-left:3px solid #339999;
+			font-size: 14px;
+			margin-top: 5px;
+		}
+	}
+
+	.section-number {
+		margin-top: 5px;
+
+		p {
+			font-size: 80px;
+			margin-left: 50%;
+		}
+
+		span {
+			font-size: 11px;
+			top: 32%;
+			right: -2%;
+		}
+	}
+
+
+	
+		.catalog__magazine {
+			img {
+				width: 100%;
+				margin-left: 0;
+			}
+		}
+		.catalog__conditions {
+			margin-top: -20px;
+			margin-left: 0;
+			padding: 21px 15px;
+			text-align: center;
+
+			p {
+				font-size: 15px;
+				margin-bottom: 13px;
+			}
+			span {
+				font-size: 19px;
+			}
+		}
+	}
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.catalog {
+		padding-top: 30px;
+		background-position: 50% 80%;
+
+	.section-title {
+		margin-bottom: 20px;
+
+		h2 { 
+			font-family: @muller_extraBold;
+			margin-bottom: 5px;
+			font-size: 32px;
+		}
+
+		p {
+			border-left:3px solid #339999;
+			font-size: 14px;
+			margin-top: 5px;
+		}
+	}
+
+	.section-number {
+		margin-top: 5px;
+
+		p {
+			font-size: 110px;
+			margin-left: 50%;
+		}
+
+		span {
+			font-size: 11px;
+			top: 38%;
+			right: 2%;
+		}
+	}
+	
+		.catalog__magazine {
+			margin-left: -45px;
+			img {
+				width: 155%;
+				margin-left: 0;
+			}
+		}
+		.catalog__conditions {
+			margin-top: 20px;
+			margin-left: 0;
+			padding: 21px 15px;
+			text-align: center;
+
+			p {
+				font-size: 16px;
+				margin-bottom: 13px;
+			}
+			span {
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+		.catalog {
+		padding-top: 30px;
+		background-position: 50% 80%;
+
+	.section-title {
+		margin-bottom: 20px;
+
+		h2 { 
+			font-family: @muller_extraBold;
+			margin-bottom: 5px;
+			font-size: 37px;
+		}
+
+		p {
+			border-left:3px solid #339999;
+			font-size: 16px;
+			margin-top: 10px;
+		}
+	}
+
+	.section-number {
+		margin-top: 5px;
+
+		p {
+			font-size: 130px;
+			margin-left: 50%;
+		}
+
+		span {
+			font-size: 11px;
+			top: 38%;
+			right: -5%;
+		}
+	}
+	
+		.catalog__magazine {
+			margin-left: -55px;
+			img {
+				width: 165%;
+				margin-left: 0;
+			}
+		}
+		.catalog__conditions {
+			margin-top: 40px;
+			margin-left: 0;
+			text-align: center;
+			margin-top: 30px;
+			padding-left: 80px;
+
+			p {
+				font-size: 20px;
+				margin-bottom: 13px;
+			}
+			span {
+				font-size: 24px;
+			}
+		}
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+/*@media (min-width: 1200px) {}*/

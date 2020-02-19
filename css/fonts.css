@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'muller_light';
+	src: url('../fonts/light/MullerNarrow-Light.eot');
+	src: local('../fonts/light/MullerNarrow-Light.eot'), local('muller_light'),
+		url('../fonts/light/MullerNarrow-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/light/MullerNarrow-Light.woff') format('woff'),
+		url('../fonts/light/MullerNarrow-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'muller_medium';
+	src: url('../fonts/Medium/MullerMedium.eot');
+	src: local('../fonts/Medium/MullerMedium.eot'), local('muller_medium'),
+		url('../fonts/Medium/MullerMedium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Medium/MullerMedium.woff') format('woff'),
+		url('../fonts/Medium/MullerMedium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'muller_ExtraBold';
+	src: url('../fonts/ExtraBold/MullerNarrow-ExtraBold.eot');
+	src: local('../fonts/ExtraBold/MullerNarrow-ExtraBold.eot'), local('muller_ExtraBold'),
+		url('../fonts/ExtraBold/MullerNarrow-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ExtraBold/MullerNarrow-ExtraBold.woff') format('woff'),
+		url('../fonts/ExtraBold/MullerNarrow-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
